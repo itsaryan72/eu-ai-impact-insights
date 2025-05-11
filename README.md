@@ -1,84 +1,101 @@
-# eu-ai-impact-insights
+# EU AI Impact Insights
 A data-driven exploration of the EU AI Act, its risk classifications, and AI readiness across EU nations.
 
-Introduction
 
-The **EU AI Act** is the European Union's first attempt to regulate Artificial Intelligence in a structured and risk-based way. As AI rapidly integrates into healthcare, transportation, law enforcement, and finance, the EU is taking steps to ensure it's used **ethically, transparently, and safely**.
+## 🧠 **Introduction**
 
-This act classifies AI systems into **four risk categories**: 
-- **Unacceptable Risk**
-- **High Risk**
-- **Limited Risk**
-- **Minimal Risk**
-
-Our project aims to explore:
-- How AI is being adopted across different EU countries
-- Which sectors and applications face the most scrutiny
-- How prepared each country is to handle these regulations
-
-Through data analysis and visualization, we’ll uncover which industries and nations may be most impacted — and provide insights for future readiness.
+The EU AI Act is the European Union's first major attempt to regulate Artificial Intelligence through a structured, risk-based approach. As AI rapidly integrates into critical sectors like healthcare, transportation, law enforcement, and finance, the EU aims to ensure AI is used ethically, transparently, and safely.
 
 
+## 🧱 Risk Categories
 
-To analyze the impact of the EU AI Act, consider the following datasets:
-1. Risk Classification Database by appliedAI Institute
-Description: An open and free database providing practical examples of high-risk and non-high-risk AI use cases under the EU AI Act.
-Access: Risk Classification Database
+AI systems are classified into four risk levels under the EU AI Act:
+
+1. Unacceptable Risk
+2.  High Risk
+3. Limited Risk
+4. Minimal Risk
+
+
+## 🎯 Project Objectives
+This project explores:
+
+1. AI adoption across EU countries
+2. Sectors and use cases under regulatory scrutiny
+3. EU nations’ preparedness for AI compliance
+
+Using data analysis and visualizations, we uncover trends in AI use, assess regulatory impact, and generate insights to prepare for the future.
+
+
+## 📂 Datasets Used
+To analyze the impact of the EU AI Act, we leveraged:
+
+1. Risk Classification Database – by appliedAI Institute
+   
+   - 🗂️ A database of practical examples of high-risk and non-high-risk AI use cases.
 
 2. EU AI Act Risk Categories Summary
-Description: Detailed explanations of the risk categories defined in the EU AI Act, including Unacceptable Risk, High Risk, and Limited or Minimal Risk.
-Access: Understanding EU AI Act Risk Categories
+   
+   - 📋 Detailed definitions and examples for each risk category.
 
 3. EU AI Act Official Documentation
-Description: The official text of the EU AI Act, providing comprehensive information on the regulation's provisions.
-Access: EU AI Act Official Text
-
-🧾 How Is the Data Structured?
-
-The datasets typically include the following fields:
-Use Case: Description of the AI application.
-Risk Category: Classification under the EU AI Act (e.g., High Risk, Limited Risk).
-Sector: Industry sector where the AI application is used (e.g., Healthcare, Finance).
-Compliance Requirements: Specific obligations for the AI application under the EU AI Act.
-Country: EU member state where the AI application is deployed (if applicable).
-
-📊 Completed Visualizations:
-
-Risk Class Distribution – overall view of high vs. low-risk systems.
-Risk Class by Enterprise Function – shows how risk varies across business areas.
-Applicable Annex Breakdown – reveals which annex is most commonly cited.
-Annex vs. Risk Class – insight into the regulatory depth vs. AI system risk.
-Enterprise Function Adoption – highlights which sectors are using AI the most.
-
-EU AI Impact Insights
-A data-driven exploration of the EU AI Act, its risk classifications, and AI readiness across EU nations.
-
-📊 Overview
-This project analyzes AI applications within the EU, focusing on their classification under the EU AI Act. By examining various enterprise functions and their associated risk levels, we aim to understand the regulatory landscape and its implications for AI deployment.
-
-🔍 Key Features
-Data Cleaning: Handled missing values and standardized data for accurate analysis.
-
-Visualization: Created plots to depict the distribution of AI applications across risk categories.
-
-Insights: Identified trends and patterns in AI risk classifications.
-
-📁 Repository Contents
-eu_ai_analysis.ipynb: Jupyter Notebook containing the data analysis and visualizations.
-
-data/: Directory containing the dataset used for analysis.
+   
+   - 🏛️ Official EU legislation explaining the provisions of the Act.
 
 
-🚀 Getting Started
+## 📊 How Is the Data Structured?
+The datasets typically contain:
 
-Clone the Repository:
-git clone https://github.com/itsaryan72/eu-ai-impact-insights.git
+- Use Case: Short description of the AI system
+- Risk Category: Unacceptable, High, Limited, or Minimal
+- Sector: Domain or industry (e.g., Finance, Healthcare)
+- Compliance Requirements: Regulatory obligations per use case
+- Country: Where the AI system is deployed
 
-Navigate to the Project Directory:
-cd eu-ai-impact-insights
 
-Install Dependencies:
-pip install -r requirements.txt
+## 📈 Completed Visualizations
+1. Risk Class Distribution – Overview of high- vs. low-risk systems
+2. Risk Class by Enterprise Function – Risk levels across business areas
+3. Applicable Annex Breakdown – Which annexes are most cited
+4. Annex vs. Risk Class – Relationship between annexes and system risk
+5. Enterprise Function Adoption – AI usage by sector
 
-Run the Notebook:
-Open eu_ai_analysis.ipynb in Jupyter Notebook and execute the cells sequentially.
+
+## 📌 Project Overview
+This project analyzes real-world AI applications in the EU and classifies them by risk level, as defined by the EU AI Act. By examining enterprise functions, sectors, and compliance rules, we assess the regulatory impact and readiness of EU nations.
+
+## ✨ Key Features
+-  Data Cleaning – Handled missing values and ensured clean, usable data
+  
+-  Visualization – Created impactful plots to display risk distributions
+  
+-  Insights – Revealed trends in risk allocation across sectors and annexes
+
+
+## 📁 Repository Contents
+- File / Folder	Description
+  - eu_ai_analysis.ipynb	Jupyter Notebook with all analysis and plots
+  - data/	Folder containing the dataset used for this study
+  - README.md	Overview and documentation of the project
+
+
+## 🚀 Getting Started
+
+1. 🔧 Clone the Repository
+   - git clone https://github.com/itsaryan72/eu-ai-impact-insights.git
+
+2. 📂 Navigate to the Project Directory
+   - cd eu-ai-impact-insights
+
+3. 📦 Install Dependencies
+   - pip install -r requirements.txt
+
+4. 🧪 Run the Notebook
+   - Open eu_ai_analysis.ipynb in Jupyter Notebook or VS Code and run the cells sequentially to reproduce the analysis.
+
+
+## 🛠️ Future Improvements
+-  Add statistical analysis and correlation insights
+-  Build interactive dashboards with Plotly or Streamlit
+-  Apply NLP to analyze use case descriptions
+-  Include predictive modeling for future AI regulation readiness
