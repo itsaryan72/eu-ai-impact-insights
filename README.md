@@ -49,3 +49,36 @@ Risk Class by Enterprise Function – shows how risk varies across business area
 Applicable Annex Breakdown – reveals which annex is most commonly cited.
 Annex vs. Risk Class – insight into the regulatory depth vs. AI system risk.
 Enterprise Function Adoption – highlights which sectors are using AI the most.
+
+EU AI Impact Insights
+A data-driven exploration of the EU AI Act, its risk classifications, and AI readiness across EU nations.
+
+📊 Overview
+This project analyzes AI applications within the EU, focusing on their classification under the EU AI Act. By examining various enterprise functions and their associated risk levels, we aim to understand the regulatory landscape and its implications for AI deployment.
+
+🔍 Key Features
+Data Cleaning: Handled missing values and standardized data for accurate analysis.
+
+Visualization: Created plots to depict the distribution of AI applications across risk categories.
+
+Insights: Identified trends and patterns in AI risk classifications.
+
+📁 Repository Contents
+eu_ai_analysis.ipynb: Jupyter Notebook containing the data analysis and visualizations.
+
+data/: Directory containing the dataset used for analysis.
+
+
+🚀 Getting Started
+
+Clone the Repository:
+git clone https://github.com/itsaryan72/eu-ai-impact-insights.git
+
+Navigate to the Project Directory:
+cd eu-ai-impact-insights
+
+Install Dependencies:
+pip install -r requirements.txt
+
+Run the Notebook:
+Open eu_ai_analysis.ipynb in Jupyter Notebook and execute the cells sequentially.
