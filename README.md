@@ -34,6 +34,7 @@ Description: The official text of the EU AI Act, providing comprehensive informa
 Access: EU AI Act Official Text
 
 🧾 How Is the Data Structured?
+
 The datasets typically include the following fields:
 Use Case: Description of the AI application.
 Risk Category: Classification under the EU AI Act (e.g., High Risk, Limited Risk).
@@ -42,6 +43,7 @@ Compliance Requirements: Specific obligations for the AI application under the E
 Country: EU member state where the AI application is deployed (if applicable).
 
 📊 Completed Visualizations:
+
 Risk Class Distribution – overall view of high vs. low-risk systems.
 Risk Class by Enterprise Function – shows how risk varies across business areas.
 Applicable Annex Breakdown – reveals which annex is most commonly cited.
